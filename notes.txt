@@ -1,0 +1,20 @@
+1: Loading recipe from API
+    (1): Using async/await fetch API to get the data
+    (2): Based on the data, we can recreate the recipe object to make it looks nicer
+    (3): But before we load the recipe, we should render spinner first to make our application more interactive.
+
+2: Render recipe:
+    Based on the recipe object, we can rewrite the HTML code and render these HTML into recipeContainer
+
+3: Listening for load and hashchange Events
+    When we click the recipe button, we have to listening for load and hashchange event, when there is
+     hashchange, we can get the id and add it to url, and render the recipe based on the url.
+
+4: MVC Architecture:
+    https://stackoverflow.com/questions/129921/what-is-mvc-model-view-controller
+
+    https://martinfowler.com/eaaDev/uiArchs.html
+
+5: 
+
+
